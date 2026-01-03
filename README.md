@@ -32,6 +32,7 @@ The bar chart below shows the accuracy comparison of all trained models:
 
 ![Model Accuracy Comparison](screenshots/model_accuracy.png)
 ![ROC AUC CURVE](screenshots/roc_auc_curve.png)
+
 ---
 
 ## 🖥️ User Interface
@@ -50,4 +51,20 @@ The bar chart below shows the accuracy comparison of all trained models:
 
 ---
 
-## 🏗️ Project Structure
+## Key Design Decision
+
+- Model selection is handled entirely by the backend.
+- Users are not required to choose a model, eliminating bias and improving usability.
+
+---
+## Future Improvements
+
+- Differentiate between Type 1 and Type 2 diabetes
+- Model explainability using feature importance
+- Deployment on cloud (Render / AWS / Vercel)
+
+---
+
+## Author
+
+Ananya Chatterjee
